@@ -48,7 +48,7 @@ android {
 
 dependencies {
 
-    def nav_version  = "2.5.1"
+    def nav_version = "2.6.0"
 
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.0')
@@ -61,7 +61,7 @@ dependencies {
     implementation 'androidx.compose.material3:material3'
 
     //noinspection GradleDependency
-    implementation "androidx.navigation:navigation-common-ktx:$nav_version"
+    implementation("androidx.navigation:navigation-compose:$nav_version")
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
